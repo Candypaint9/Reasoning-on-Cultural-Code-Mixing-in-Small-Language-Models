@@ -29,8 +29,8 @@ HF_TOKEN = os.getenv("HF_TOKEN")
 MODEL_NAME = "meta-llama/Llama-3.2-1B-Instruct"
 OUTPUT_DIR = "./llama-1b-cultural-adapter-local-sampled"
 TRAIN_FILES = [
-    r"C:\Users\advai\Documents\Capstone\final_dataset\train_l2.csv", 
-    r"C:\Users\advai\Documents\Capstone\final_dataset\train_l3.csv"
+    r"final_dataset\train_l2.csv", 
+    r"final_dataset\train_l3.csv"
 ]
 
 SAMPLE_PERCENTAGE = 1

@@ -3,8 +3,8 @@ from sklearn.model_selection import train_test_split
 import os
 
 FILES_TO_SPLIT = [
-    r"C:\Users\advai\Documents\Capstone\final_dataset\l2_codemixed_final.csv",
-    r"C:\Users\advai\Documents\Capstone\final_dataset\l3_codemixed_final.csv"
+    r"final_dataset\l2_codemixed_final.csv",
+    r"final_dataset\l3_codemixed_final.csv"
 ]
 
 TEST_SIZE = 0.10  
