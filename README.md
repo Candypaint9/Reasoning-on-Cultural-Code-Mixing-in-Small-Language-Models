@@ -37,7 +37,7 @@ The following table summarizes the final layer accuracy across the L1, L2, and L
 | **Meta-Llama-3.1-8B-Instruct** | 83.8% | 87.4% | 83.6% | 68.6% | 56.0% |
 | **Llama-3.2-3B-Instruct** | 77.4% | 80.4% | 74.3% | 61.4% | 49.3% |
 | **Llama-3.2-1B-Instruct (Base)** | 59.5% | 56.0% | 52.1% | 33.3% | 28.6% |
-| **Llama-3.2-1B-Instruct-FT (Ours)** | **79.2%** | **99.4%** | **99.1%** | **92.5%** | **90.7%** |
+| **Llama-3.2-1B-Instruct-FT** | **79.2%** | **99.4%** | **99.1%** | **92.5%** | **90.7%** |
 | **Llama-3.2-1B-Instruct-FT-only-L1 (Ablation)**| 92.0% | 81.9% | 81.3% | 46.1% | 33.7% |
 
 <br>
