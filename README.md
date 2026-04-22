@@ -45,6 +45,6 @@ The following table summarizes the final layer accuracy across the L1, L2, and L
 2. **Success of Structural Fine-Tuning:** The `1B-Instruct-FT` model effectively overcomes this bottleneck, achieving >90% accuracy on L3 Code-Mixed tasks, outperforming the much larger 8B baseline.
 3. **Knowledge vs. Reasoning (Ablation):** The `FT-only-L1` ablation study proves that injecting factual knowledge alone achieves high recall (92%) but fails catastrophically on comparative logic (33.7%). This confirms the full adapter successfully learned structural reasoning, not just vocabulary memorization.
 
-![L3 Accuracy Bars](results/graphs/L3_unified_accuracy_bars.png)
-![Confidence Growth Proof](results/graphs/Llama-3.2-1B-Instruct-FT_cross_dataset_confidence_growth.png)
-![Ablation Study](results/graphs/Llama-3.2-1B-Instruct-FT-only-L1_cross_dataset_confidence_growth.png)
+![L3 Accuracy Bars](results/plots/L3_unified_accuracy_bars.png)
+![Confidence Growth Proof](results/plots/Llama-3.2-1B-Instruct-FT_cross_dataset_confidence_growth.png)
+![Ablation Study](results/plots/Llama-3.2-1B-Instruct-FT-only-L1_cross_dataset_confidence_growth.png)
