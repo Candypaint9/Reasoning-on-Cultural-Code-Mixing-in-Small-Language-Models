@@ -25,8 +25,6 @@ from trl import SFTTrainer, SFTConfig
 
 load_dotenv()
 HF_TOKEN = os.getenv("HF_TOKEN")
-if not HF_TOKEN:
-    raise ValueError("Missing HF_TOKEN! Please check your .env file.")
 
 MODEL_NAME = "meta-llama/Llama-3.2-1B-Instruct"
 OUTPUT_DIR = "./llama-1b-cultural-adapter-local-sampled"
